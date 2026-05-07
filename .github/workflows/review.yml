@@ -1,6 +1,8 @@
 name: Automated Code Review
 
 on:
+  push:
+    branches: [ "master" ]
   pull_request:
     branches: [ "master" ] # Kích hoạt khi có PR hướng vào master
 
